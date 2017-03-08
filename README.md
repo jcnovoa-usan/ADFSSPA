@@ -1,6 +1,6 @@
 ---
-services: active-directory
-platforms: javascript
+services: ADFS - Active-Directory
+platforms: JavaScript
 author: J.C. Novoa
 ---
 
