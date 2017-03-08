@@ -1,8 +1,10 @@
 ---
 services: ADFS - Active-Directory
 platforms: JavaScript
-author: J.C. Novoa
+author: J.C. Novoa 
 ---
+# Integrating VSO with GitHub
+Build updates changes from VSO into GitHub - GitHub updates JIRA
 
 # Integrating Azure AD into an AngularJS single page app
 
