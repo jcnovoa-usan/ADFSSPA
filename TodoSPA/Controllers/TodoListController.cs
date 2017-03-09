@@ -17,6 +17,7 @@ namespace TodoSPA.Controllers
         private TodoListServiceContext db = new TodoListServiceContext();
 
         // GET: api/TodoList
+        //Need to verify authentication
         public IEnumerable<Todo> Get()
         {
             string owner = ClaimsPrincipal.Current.FindFirst(ClaimTypes.NameIdentifier).Value;
